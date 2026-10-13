@@ -1,0 +1,26 @@
+name: AI 落地需求交流
+description: 公开讨论一个业务流程的 AI 试点与验收要求。
+title: "[工作流] "
+body:
+  - type: markdown
+    attributes:
+      value: "此页面公开。请只填写概括性流程，不上传客户名单、原始业务文档、账号、密钥或私人联系方式。"
+  - type: textarea
+    id: workflow
+    attributes:
+      label: 流程与目标
+      description: 哪个重复流程需要改善？从什么输入开始，以什么输出结束？
+    validations:
+      required: true
+  - type: textarea
+    id: current-tools
+    attributes:
+      label: 现有工具与约束
+      description: 概括现有系统、可用权限和暂时不能改变的环节。
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收目标
+      description: 希望如何衡量试点结果？什么错误不能发生？未测量的数据可以注明未知。
+    validations:
+      required: true
