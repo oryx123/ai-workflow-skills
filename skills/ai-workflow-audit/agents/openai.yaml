@@ -1,0 +1,4 @@
+interface:
+  display_name: "ai-workflow-audit"
+  short_description: "把已有业务流程拆成可验收的 AI 小试点，明确工时依据、人工复核和失败回退。"
+  default_prompt: "使用 $ai-workflow-audit 诊断我的一个重复业务流程，选择最值得先改的步骤并给出可验收的小试点。"
